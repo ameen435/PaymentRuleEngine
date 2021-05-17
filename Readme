@@ -1,1 +1,7 @@
 
+- The idea is to have API - To create product, create different orders 
+- Then we can create a new controller where we link the prodcut and prder and do the order processing , with this approct the code can always be extended 
+
+Each Controller will have add and search feature and products and order can also have updated ( if the products and orders are not linked )
+A generic rule engine can be created to check if there is any matching product and order and based on the response of rule we can either commit it to database ot moce it to API response
+
